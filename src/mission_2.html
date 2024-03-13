@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RR.ExampleB02 - Example Sampling 2024 - Admin Panel</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1 class="project_name">Example Sampling 2024</h1>
+      <div class="actions">
+        <a href="index.html">← Back to Project</a>
+      </div>
+      <h2 class="subtitle">RR.ExampleB01</h2>
+    </header>
+    <section id="reviewers">
+      <h3>Reviewers</h3>
+      <button>Add</button>
+      <table>
+        <thead>
+          <tr class="reviewer">
+            <th class="email">Email</th>
+            <th class="first_name">First Name</th>
+            <th class="last_name">Last Name</th>
+            <th class="entries_count">Entries</th>
+            <th class="audit">Audit Status</th>
+            <th class="options"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="reviewer" data-id="3">
+            <td class="email">susan.lee@example.com</td>
+            <td class="first_name">Susan</td>
+            <td class="last_name">Lee</td>
+            <td class="entries_count"><a href="#">1</a></td>
+            <td class="audit">
+              <select name="reviewer_3_audit">
+                <option value="Pending" selected>Pending</option>
+                <option value="Pass">Pass</option>
+                <option value="Fail">Fail</option>
+                <option value="Exempt">Exempt</option>
+              </select>
+            </td>
+            <td class="options">
+              <button>Edit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

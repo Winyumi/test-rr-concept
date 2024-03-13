@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Sampling 2024 - Admin Panel</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1 class="project_name">Example Sampling 2024</h1>
+      <h2 class="subtitle"></h2>
+    </header>
+    <section id="products">
+      <h3>Products</h3>
+      <button>Add</button>
+      <table>
+        <thead>
+          <tr class="product">
+            <th class="name">Name</th>
+            <th class="upc">UPC</th>
+            <th class="mission">Missions Assigned</th>
+            <th class="units">Units Assigned</th>
+            <th class="reviews">Reviews Completed</th>
+            <th class="options"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="product">
+            <td class="name">Body Wash A</td>
+            <td class="upc">000001000015</td>
+            <td class="mission">1</td>
+            <td class="units">1</td>
+            <td class="reviews">0 of 8 (0.0%)</td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+          <tr class="product">
+            <td class="name">Body Wash B</td>
+            <td class="upc">000001000025</td>
+            <td class="mission">1</td>
+            <td class="units">2</td>
+            <td class="reviews">1 of 8 (12.5%)</td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+          <tr class="product">
+            <td class="name">Shampoo A</td>
+            <td class="upc">000001000035</td>
+            <td class="mission">1</td>
+            <td class="units">1</td>
+            <td class="reviews">0 of 8 (0.0%)</td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+          <tr class="product">
+            <td class="name">Shampoo B</td>
+            <td class="upc">000001000045</td>
+            <td class="mission">1</td>
+            <td class="units">2</td>
+            <td class="reviews">1 of 8 (12.5%)</td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="surveys">
+      <h3>Surveys</h3>
+      <button>Add</button>
+      <table>
+        <thead>
+          <tr class="survey">
+            <th class="name">Name</th>
+            <th class="entries_count">Entries</th>
+            <th class="url">Builder URL</th>
+            <th class="url">Embed URL</th>
+            <th class="options"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="survey" data-id="1">
+            <td class="name">Pre-Qualification Form 1</td>
+            <td class="entries_count">
+              <a href="survey_1.html">151</a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+          <tr class="survey" data-id="2">
+            <td class="name">Pre-Qualification Form 2</td>
+            <td class="entries_count">
+              <a href="survey_2.html">49</a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="missions">
+      <h3>Missions</h3>
+      <button>Add</button>
+      <table>
+        <thead>
+          <tr class="mission">
+            <th class="name">Name</th>
+            <th class="products_count">Products Assigned</th>
+            <th class="reviews">Reviews Completed</th>
+            <th class="url">Builder URL</th>
+            <th class="url">Embed URL</th>
+            <th class="options"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="mission" data-id="1">
+            <td class="name">RR.ExampleB01</td>
+            <td class="products_count">2</td>
+            <td class="reviews">
+              <a href="mission_1.html">1 of 2 (50.0%)</a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+          <tr class="mission" data-id="2">
+            <td class="name">RR.ExampleB02</td>
+            <td class="products_count">2</td>
+            <td class="reviews">
+              <a href="mission_2.html">0 of 1 (0.0%)</a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="url">
+              <a href="#" target="_blank"><i class="bx bx-link-alt"></i></a>
+            </td>
+            <td class="options">
+              <a href="#"><i class="bx bx-pencil"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
